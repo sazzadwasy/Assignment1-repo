@@ -9,20 +9,23 @@ h1{
 .orange-color{
     color: orange;
 }
-.flex-container{
+section{
     display: flex;
     margin-bottom: 100px;
 }
 .head-border{
     border-left: 5px solid tomato;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 .half-width img{
-    width: 70%;
+    width: 80%;
+}
+.flex-container{
+    display: flex;
 }
 .link-button{
     text-decoration: none;
@@ -53,6 +56,37 @@ div h2{
     background-color:lightskyblue;
     margin: 20px;
     border-radius: 25px;
-    padding: 25px;
-    
+    padding: 25px; 
+}
+.developer-limites{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center left;
+}
+.fourth-part{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 10%;
+    margin-left: 20px;
+}
+footer{
+    background-color: black;
+}
+footer h2{
+    text-align: center;
+    color: white;
+    font-style: oblique;
+    padding-top: 10px;
+
+}
+#footer-h2{
+    color: tomato;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-style: inherit;
+    padding-bottom: 15px;
 }
