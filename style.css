@@ -71,6 +71,15 @@ div h2{
     background-size: 10%;
     margin-left: 20px;
 }
+#about-image{
+    width: 120%;
+    height: 100%;
+    border-radius: 10px;;
+}
+.about-me{
+    display: flex;
+    padding-right: 20px;
+}
 footer{
     background-color: black;
 }
@@ -87,6 +96,5 @@ footer h2{
 footer p{
     text-align: center;
     color: white;
-    font-style: inherit;
     padding-bottom: 15px;
 }
